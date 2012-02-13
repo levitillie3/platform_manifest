@@ -6,7 +6,7 @@
   <remote  name="iDroid"
            fetch="git://github.com/iDroid-Project/" />
   <default revision="gingerbread"
-           remote="korg" />
+           remote="Google" />
   <project path="build" name="platform_build" remote="iDroid">
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
